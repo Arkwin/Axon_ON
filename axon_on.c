@@ -380,6 +380,13 @@ int32_t axon_on(void* p) {
     furi_record_close(RECORD_GUI);
     furi_record_close(RECORD_NOTIFICATION);
 
+    // Stop advertising and cleanup thread properly
+    if(state->advertising) {
+        state->advertising = false;
+        furi_thread_flags_set(furi_thread_get_id(state->thread), true);
+        furi_thread_join(state->thread);
+    }
+
     furi_timer_free(state->lock_timer);
     furi_thread_free(state->thread);
     free(state);

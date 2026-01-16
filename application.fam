@@ -7,7 +7,7 @@ App(
     fap_icon="axon_on_10px.png",
     fap_category="Bluetooth",
     fap_author="@Arkwin",
-    fap_weburl="https://XXXXXXXX",
+    fap_weburl="https://github.com/Arkwin/Axon_ON/",
     fap_version="1.0",
     fap_description="Turn on Axon Body Cameras",
     fap_icon_assets="icons",

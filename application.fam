@@ -1,0 +1,15 @@
+App(
+    appid="axon_on",
+    name="Axon On",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="axon_on",
+    stack_size=2 * 1024,
+    fap_icon="axon_on_10px.png",
+    fap_category="Bluetooth",
+    fap_author="@Arkwin",
+    fap_weburl="https://XXXXXXXX",
+    fap_version="1.0",
+    fap_description="Turn on Axon Body Cameras",
+    fap_icon_assets="icons",
+    fap_icon_assets_symbol="axon_on",
+)

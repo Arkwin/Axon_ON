@@ -74,7 +74,7 @@ The compiled FAP file will be available at:
 **Created by Kara**
 - Email: kara@netslum.io
 
-This application is based on the work of the AxonCadabra Android app and research by the Flipper Zero community.
+This application is based on the work of the [AxonCadabra Android app](https://github.com/WithLoveFromMinneapolis/AxonCadabra) and research by the Flipper Zero community.
 
 ## License
 
